@@ -10,7 +10,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 ### Python 3.6.5 Installation
 Windows
-- Download binary file from website https:www.python.org (https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe)
+- Download binary file from website www.python.org (https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe)
 - Then install it
 
 MacOSX
@@ -50,7 +50,8 @@ Q: How to check Python version?
 A: Run command ```$ python --version``` or ```$ python3 --version``` depends on which version is installed on your machine.
 
 Q: How can I check my pip version?
-A: Run command ```$ pip --version``` and s
+A: Run command ```$ pip --version```
+
 ## References
 
 ### Tools
