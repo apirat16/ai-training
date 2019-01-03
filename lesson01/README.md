@@ -49,7 +49,7 @@ $ pip install -r requirements.txt
 Q: How to check Python version?
 A: Run command ```$ python --version``` or ```$ python3 --version``` depends on which version is installed on your machine.
 
-Q: How can I check my pip version?
+Q: How can I check my pip version?  
 A: Run command ```$ pip --version```
 
 ## References
