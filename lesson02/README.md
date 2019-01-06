@@ -8,8 +8,8 @@
 You might need to run below libraries installation in virtual environment.
 ### Create and activate virtual environment (optional)
 ```bash
-$ virtualenv -p python3 lesson02
-$ source lesson02/bin/activate
+$ virtualenv -p python3 imagedetection
+$ source imagedetection/bin/activate
 ```  
 ### Tensorflow
 ```bash
@@ -49,6 +49,10 @@ $ pip3 install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.2/
 ```  
 ## Training model
 Run model_training.py
+
+# Practice
+Train image recognition model which could detect at least 5 different jobs with at least 50% confidence. 
+
 
 ## References
 Professional images dataset (OlafenwaMoses/IdenProf)  
