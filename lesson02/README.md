@@ -7,14 +7,24 @@
 ## Installation
 You might need to run below libraries installation in virtual environment.
 ### Create and activate virtual environment (recommend)
+Check whether you have valid Python version by run ```$ python --version``` and expected to see ```Python 3.6.3``` as an output.
+If you have other version, uninstall current version and reinstall (https://www.python.org/ftp/python/3.6.3/python-3.6.3-amd64.exe).
+Next is to check ```pip``` version by run ```$ pip --version```. And if there is pip installed on your machine, the version number will be shown at the beginning of an output.
+
+Then run upgrade pip to the latest version
+```bash
+$ pip install --upgrade pip --user
+```
+Run to check pip version again and should see ```pip 19.0.3``` or newer version
+
 Install virtualenv library if doesn't have
 ```bash
 $ pip install virtualenv
 ```
 Create virtual environment and activate it
 ```bash
-$ virtualenv -p python3 imagedetection
-$ source imagedetection/bin/activate
+$ virtualenv -p python imagedetection
+$ imagedetection\Scripts\activate.bat
 ```  
 ### Upgrade absl-py
 ```bash
