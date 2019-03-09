@@ -4,21 +4,14 @@
 
 Create virtual environment
 ```bash
-$ virtualenv -p python3 facerecognition
-$ source facerecognition/bin/activate
+$ virtualenv -p python facerecognition
+$ facerecognition\Scripts\activate.bat
 ```
 
-Install Numpy
+Install required libraries
 ```bash
-$ pip install numpy
+$ pip install -r requirements.txt
 ```
-
-Install OpenCV library
-```bash
-$ pip install opencv-python
-```
-
-Install OpenCV 
 
 # Practice
 Modify the source code and train your model to be able to detect you and your another 2 friends
