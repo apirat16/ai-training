@@ -13,7 +13,7 @@ Next is to check ```pip``` version by run ```$ pip --version```. And if there is
 
 Then run upgrade pip to the latest version
 ```bash
-$ pip install --upgrade pip --user
+$ pip install --upgrade pip
 ```
 Run to check pip version again and should see ```pip 19.0.3``` or newer version
 
